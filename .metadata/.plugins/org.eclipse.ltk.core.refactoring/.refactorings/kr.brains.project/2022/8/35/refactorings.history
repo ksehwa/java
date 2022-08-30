@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;kr.brains.project.wedtoonExample&apos; to &apos;WedtoonExample&apos;&#x0D;&#x0A;- Original project: &apos;kr.brains.project&apos;&#x0D;&#x0A;- Original element: &apos;kr.brains.project.wedtoonExample&apos;&#x0D;&#x0A;- Renamed element: &apos;kr.brains.project.WedtoonExample&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;wedtoonExample&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;kr.brains.project{wedtoonExample.java[wedtoonExample" matchStrategy="1" name="WedtoonExample" qualified="false" references="true" similarDeclarations="false" stamp="1661415691597" textual="false" version="1.0"/>
+</session>

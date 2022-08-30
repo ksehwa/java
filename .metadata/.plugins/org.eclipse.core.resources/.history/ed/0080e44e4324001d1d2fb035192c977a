@@ -1,0 +1,12 @@
+package kr.branins.api;
+
+public 	enum Week {
+	MONDAY,
+	TUESDAY,
+	WEDNESDAY,
+	THURSDAY,
+	FRIDAT,
+	SATURDAY,
+	SUNDAY
+
+}

@@ -1,0 +1,15 @@
+package kr.brains062;
+
+public class Gugudan {
+	private int col;
+	private int row;
+	int dan;
+	
+	//지정한 단만 출력
+	public void printOne(int dan) {
+		for (int i = dan; i < col; i++) {
+			System.out.println(dan + "*" + i + "="+ dan * i);
+		}
+	}
+
+}

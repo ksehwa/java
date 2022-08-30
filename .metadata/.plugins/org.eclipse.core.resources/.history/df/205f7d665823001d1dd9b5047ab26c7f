@@ -1,0 +1,30 @@
+package kr.brains072;
+
+import java.util.ArrayList;
+
+public class PolygonExample {
+	// 매개변수에 배열을 사용하면 매개변수 개수를 가변적으로 사용하 수 있음
+	public static void main(String[] args) {
+		// polygon 형의 poly라는 참조변수를 사용
+		// Triangle, Square, Trapeziod .. 상속받음, 공통적인 특징을 가짐
+	  ArrayList<Polygon> arrPoly = new ArrayList<>();
+	  
+	  Polygon poly = new Triangle(50,80);
+	  System.out.println("넓이는 : " + poly.evaluate());
+	 
+	  poly = new Square(80);
+	  System.out.println("넓이는 : " + poly.evaluate());
+	  
+	  poly = new Trapezoid(50,60,80);
+	  System.out.println("넓이는 : " + poly.evaluate());
+	  // System.out.println("넓이는 :" + poly.evaluate());
+	  for(Polygon p : arrPoly) {
+			  System.out.println("넓이는 :" + poly.evaluate());
+
+	  }
+		  
+
+
+	}
+
+}

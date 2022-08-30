@@ -1,0 +1,7 @@
+package kr.branis.inertf;
+
+import javax.annotation.processing.Messager;
+
+public class SmartPhone implements Messager {
+
+}
